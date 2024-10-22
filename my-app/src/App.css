@@ -1,0 +1,15 @@
+body {
+  margin : 0;
+  padding: 0;
+}
+
+.card {
+  max-width: 30%;
+  max-height: 30%;
+  text-align: center;
+  background-color: #1A1B21;
+}
+
+.profile-image {
+  height: 40vmin;
+}
