@@ -2,9 +2,9 @@
 export default function Header() {
     return (
         <div>
-            <h3>Dinesh Kumar</h3>
-            <h6>Frontend Developer</h6>
-            <h6>dineshkr4114@gmail.com</h6>
+            <h3 className="name">Dinesh Kumar</h3>
+            <h3 className="sub-heading">Frontend Developer</h3>
+            <h3 className="website">dineshkr.website</h3>
         </div>
     )
 }

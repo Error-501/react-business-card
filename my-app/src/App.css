@@ -1,15 +1,103 @@
 body {
   margin : 0;
   padding: 0;
+  font-family: "Inter", sans-serif;
 }
 
 .card {
-  max-width: 30%;
-  max-height: 30%;
-  text-align: center;
+  width: 317px;
+  height: 780px;
+  display: flex;
+  flex-direction: column;
   background-color: #1A1B21;
 }
 
 .profile-image {
-  height: 40vmin;
+  height: 317px;
+  width: 100%;
+}
+
+.name {
+  color: #FFFFFF;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 0.3px;
+}
+
+.sub-heading {
+  color: #F3BF99;
+  text-align: center;
+  font-weight: normal;
+  font-size: 1rem;
+  margin-top: .7px;
+}
+
+.website {
+  color: #F5F5F5;
+  text-align: center;
+  font-weight: normal;
+  font-size: .8rem;
+  margin-top: 1px;
+}
+
+.card-button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.card-button > * {
+  height: 34px;
+  font-size: medium;
+  border-radius: 6px;
+  width: 40%;
+}
+
+.linkedin-button {
+  color: #fff;
+  border: solid 1px #fff ;
+  background: #5093E2 url(../public/svg/linkedin-small.svg) no-repeat 10px center;
+}
+
+.mail-button {
+  border: solid 1px #D1D5DB;
+  background: #fff url(../public/svg/mail.svg) no-repeat 10px center;
+}
+
+.main-content-cont {
+  text-align: left;
+  padding: 5%;
+}
+
+.main-heading {
+  color: #F5F5F5;
+  margin-bottom: .5px;
+}
+
+.main-content {
+  margin-top: .5px;
+  color: #DCDCDC;
+  font-weight: normal;
+  font-size: .76rem;
+}
+
+.footer {
+  display: flex;
+  padding: 1rem;
+  justify-self: flex-end;
+  background-color: #161619;
+  justify-content: space-evenly;
+}
+
+.footer > button {
+  appearance: none;
+  border: none;
+  background-color: inherit;
+  
+}
+
+.icon {
+  width: 2rem;
+  height: 2rem;
 }
