@@ -1,8 +1,8 @@
 export default function Links() {
     return (
         <div className="card-button">
-            <button className="button mail-button">Email</button>
-            <button className="button linkedin-button">LinkedIn</button>
+            <a href="mailto:dineshkr4114@gmail.com" className="button mail-button">Email</a>
+            <a href="https://www.example.com" className="button linkedin-button">LinkedIn</a>
         </div>
     )
 }
